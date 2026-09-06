@@ -1,8 +1,8 @@
-# [Project Name] by [Team Name]
+# [Project Name] by Xbyte
 
-**Team:** [Member 1], [Member 2], [Member 3], [Member 4]
+**Team:** Wong Wei Sheng, Yoo Jun Yang, Gerald Ho, Aidan Go Kun Zi
 
-**Problem Statement:** [Stress & Workload Manager / Travel Planner]
+**Problem Statement:** [Stress & Workload Manager]
 
 **Video Presentation:** [Unlisted YouTube Link]
 
