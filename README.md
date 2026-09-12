@@ -345,17 +345,17 @@ During development, we identified several constraints:
 
 | Member | Role |
 |---|---|
-| **Wong Wei Sheng** | [Role] |
-| **Yoo Jun Yang** | [Role] |
-| **Gerald Ho** | [Role] |
-| **Aidan Go Kun Zi** | [Role] |
+| **Wong Wei Sheng** | Team Lead |
+| **Yoo Jun Yang** | Team Member |
+| **Gerald Ho** | Team Member |
+| **Aidan Go Kun Zi** | Team Member |
 
 ---
 
 # 11. Project Links
 
 - 🎥 **Video Presentation:** [Unlisted YouTube Link]
-- 🎨 **UI Prototype:** [Prototype Link]
+- 🎨 **UI Prototype:** [Prototype Link](https://www.figma.com/design/d2CJwlIP6BHQUiMtMa1pkO/XByte-Codenation-Hackathon?node-id=0-1&t=G0hEf5GM1Nn3rjXc-1)
 - 📊 **Presentation Slides:** [Public Slides Link]
 
 ---
