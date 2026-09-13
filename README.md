@@ -53,6 +53,27 @@ Instead of simply telling users to complete more tasks, Coze helps create a more
 - 🔔 **Smart Notifications**
 - 🐙 **Friendly AI Mascot**
 
+The AI doesn't just schedule tasks. It understands the real-life context surrounding those tasks and adapts the user's schedule accordingly.
+
+Context can include:
+
+🕐 Time
+📍 Location
+🚗 Travel Time
+📚 Task Priority
+⏰ Deadline
+🧠 Stress Level
+⚡ Energy Level
+😴 Sleep
+💼 Work Commitments
+👥 Social Events
+🏃 Physical Activities
+🛌 Recovery Time
+⏳ Unexpected Events
+
+This allows the AI to create a more realistic, flexible, and personalised schedule, rather than simply filling available time with tasks.
+
+
 ---
 
 # 2. Ideation & Process
