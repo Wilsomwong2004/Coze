@@ -73,7 +73,34 @@ Context can include:
 
 This allows the AI to create a more realistic, flexible, and personalised schedule, rather than simply filling available time with tasks.
 
+> Add real life event
+> Add location and travel context
+> Energy needed for each task
+> When modifying calendar, AI need to explain why
+> Allow what if scenario for user
+> Differences between coze and other software
+>
 
+Our Differentiator
+Coze is not just an AI calendar or task manager. It is a context-aware workload manager that adapts to the user's real life.
+Then:
+Capability	Traditional Calendar	AI Planner	Coze
+Task management	✅	✅	✅
+Calendar	✅	✅	✅
+AI planning	❌	✅	✅
+Stress awareness	❌	⚠️	✅
+Energy awareness	❌	❌	✅
+Workload capacity	❌	⚠️	✅
+Dynamic rescheduling	❌	✅	✅
+Location context	❌	⚠️	✅
+Travel consideration	❌	⚠️	✅
+Unexpected event adaptation	❌	⚠️	✅
+Recovery planning	❌	⚠️	✅
+What-if planning	❌	⚠️	✅
+
+"Real life doesn't follow your calendar. Your calendar should adapt to real life."
+
+> give scenario
 ---
 
 # 2. Ideation & Process
