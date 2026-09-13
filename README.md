@@ -57,28 +57,6 @@ The AI doesn't just schedule tasks. It understands the real-life context surroun
 
 Context can include:
 
-🕐 Time
-📍 Location
-🚗 Travel Time
-📚 Task Priority
-⏰ Deadline
-🧠 Stress Level
-⚡ Energy Level
-😴 Sleep
-💼 Work Commitments
-👥 Social Events
-🏃 Physical Activities
-🛌 Recovery Time
-⏳ Unexpected Events
-
-This allows the AI to create a more realistic, flexible, and personalised schedule, rather than simply filling available time with tasks.
-
-### Context-Aware Planning
-
-The AI doesn't just schedule tasks. **It understands the context surrounding those tasks and uses that information to create a realistic and adaptable schedule.**
-
-Context can include:
-
 - 🕐 **Time**
 - 📍 **Location**
 - 🚗 **Travel Time**
