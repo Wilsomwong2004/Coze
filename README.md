@@ -271,7 +271,48 @@ Our idea is that effective productivity should not only be about completing more
 ### Mindmap
 
 ![Mindmap](docs/images/mindmap.png)
-
+```mermaid
+mindmap
+  root((Coze<br/>AI Stress &amp; Workload Manager))
+    The Problem
+      Managing assignments, deadlines, meetings &amp; personal life at once
+      Existing apps ignore emotional state
+      Stakeholders: Students, Young Adults, Busy Users
+    Solution: Feature Set
+      AI Personal Assistant
+      Stress &amp; Mood Support
+      Smart Task Management
+      AI Schedule Planning
+      Workload &amp; Wellbeing Tracking
+      Smart Notifications
+      Friendly AI Mascot
+    Key Concepts
+      Adaptive Scheduling
+      AI Schedule Explanation
+      What-If Planning
+    Differentiator
+      Context-aware: stress, energy, location, travel, recovery
+      vs Traditional Calendar: dynamic plan not fixed structure
+      vs AI Planner: adds stress/energy awareness + what-if
+    AI Agent System
+      Planning Agent
+      Stress &amp; Mood Agent
+      Task Agent
+    Technical Architecture
+      Frontend: React / React Native
+      Backend: Node.js / Express
+      Database: Supabase / Firebase
+      AI: OpenAI / Gemini API
+      Hosting: Vercel / Render
+    Build Plan
+      MVP: Auth, Profile, Assistant, Tasks, Calendar, Schedule, Mood, Notifications, Settings
+      Stretch: More agents, auto-prioritisation, weekly analysis, voice
+    Team - Xbyte
+      Wong Wei Sheng - Team Lead
+      Yoo Jun Yang
+      Gerald Ho
+      Aidan Go Kun Zi
+```
 The mindmap shows the main problems we identified around **stress, workload, time management, and productivity**. We then connected these problems to possible solutions such as AI assistance, mood tracking, task management, scheduling, and notifications.
 
 ### User Flow
