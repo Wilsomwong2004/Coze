@@ -73,34 +73,200 @@ Context can include:
 
 This allows the AI to create a more realistic, flexible, and personalised schedule, rather than simply filling available time with tasks.
 
-> Add real life event
-> Add location and travel context
-> Energy needed for each task
-> When modifying calendar, AI need to explain why
-> Allow what if scenario for user
-> Differences between coze and other software
->
+### Context-Aware Planning
 
-Our Differentiator
-Coze is not just an AI calendar or task manager. It is a context-aware workload manager that adapts to the user's real life.
-Then:
-Capability	Traditional Calendar	AI Planner	Coze
-Task management	✅	✅	✅
-Calendar	✅	✅	✅
-AI planning	❌	✅	✅
-Stress awareness	❌	⚠️	✅
-Energy awareness	❌	❌	✅
-Workload capacity	❌	⚠️	✅
-Dynamic rescheduling	❌	✅	✅
-Location context	❌	⚠️	✅
-Travel consideration	❌	⚠️	✅
-Unexpected event adaptation	❌	⚠️	✅
-Recovery planning	❌	⚠️	✅
-What-if planning	❌	⚠️	✅
+The AI doesn't just schedule tasks. **It understands the context surrounding those tasks and uses that information to create a realistic and adaptable schedule.**
 
-"Real life doesn't follow your calendar. Your calendar should adapt to real life."
+Context can include:
 
-> give scenario
+- 🕐 **Time**
+- 📍 **Location**
+- 🚗 **Travel Time**
+- 📚 **Task Priority**
+- ⏰ **Deadline**
+- 🧠 **Stress Level**
+- ⚡ **Energy Level**
+- 😴 **Sleep**
+- 💼 **Work Commitments**
+- 👥 **Social Events**
+- 🏃 **Physical Activities**
+- 🛌 **Recovery Time**
+- ⏳ **Unexpected Events**
+
+### Adaptive Scheduling
+
+When the user's situation changes, Coze can **re-evaluate and modify the schedule** instead of requiring the user to manually reorganise everything.
+
+Coze can:
+
+- Add newly created real-life events
+- Consider location and estimated travel time
+- Match tasks with the user's available energy
+- Move lower-priority tasks when urgent work appears
+- Protect recovery and rest time
+- Recalculate workload when plans change
+- Explain why a task was moved or rescheduled
+
+### AI Schedule Explanation
+
+Whenever Coze changes the user's schedule, the AI explains the reasoning behind the change.
+
+For example:
+
+> **"Your programming task was moved from 7:00 PM to 9:00 PM because your dinner event requires approximately 45 minutes of travel time, while the assignment deadline is tomorrow. Your lower-priority reading task was moved to tomorrow instead."**
+
+This makes the AI's decisions more **transparent and trustworthy**.
+
+### What-If Planning
+
+Users can simulate a situation **before actually changing their schedule**.
+
+Examples:
+
+- *"What if I go for badminton tonight?"*
+- *"What if I accept this dinner invitation?"*
+- *"Can I finish this assignment if I work part-time tomorrow?"*
+- *"What happens to my schedule if I add another 2-hour task?"*
+
+Coze evaluates the consequences and shows possible scheduling options before the user commits to the change.
+
+---
+
+## Our Differentiator
+
+### From AI Scheduling to Context-Aware Workload Management
+
+Coze is **not just an AI calendar or task manager**.
+
+It is a **context-aware workload manager that adapts to the user's real life**.
+
+Traditional calendars answer:
+
+> **"When is there free time?"**
+
+AI planners answer:
+
+> **"How should I arrange these tasks?"**
+
+Coze aims to answer:
+
+> **"Given everything happening in my life right now, what is the most realistic plan?"**
+
+| Capability | Traditional Calendar | AI Planner | **Coze** |
+|---|:---:|:---:|:---:|
+| Task Management | ✅ | ✅ | ✅ |
+| Calendar | ✅ | ✅ | ✅ |
+| AI Planning | ❌ | ✅ | ✅ |
+| Stress Awareness | ❌ | ⚠️ | **✅** |
+| Energy Awareness | ❌ | ❌ | **✅** |
+| Workload Capacity | ❌ | ⚠️ | **✅** |
+| Dynamic Rescheduling | ❌ | ✅ | **✅** |
+| Location Context | ❌ | ⚠️ | **✅** |
+| Travel Consideration | ❌ | ⚠️ | **✅** |
+| Unexpected Event Adaptation | ❌ | ⚠️ | **✅** |
+| Recovery Planning | ❌ | ⚠️ | **✅** |
+| What-If Planning | ❌ | ⚠️ | **✅** |
+| Schedule Change Explanation | ❌ | ⚠️ | **✅** |
+
+> **"Real life doesn't follow your calendar. Your calendar should adapt to real life."**
+
+### Why Coze Is Different
+
+Most productivity software treats the user's schedule as a **fixed structure** that the user must maintain.
+
+Coze treats the schedule as a **dynamic plan** that can change when the user's circumstances change.
+
+Instead of simply asking:
+
+> **"Where can I put this task?"**
+
+Coze considers:
+
+> **"Can the user realistically handle this task at this time, given their workload, energy, stress, location, commitments, travel, and need for recovery?"**
+
+---
+
+## Real-Life Scenario
+
+### Scenario: An Unexpected Dinner
+
+Imagine a student already has a busy evening:
+
+| Time | Existing Plan |
+|---|---|
+| 5:00 PM – 6:30 PM | Programming Assignment |
+| 6:30 PM – 7:00 PM | Dinner |
+| 7:00 PM – 9:00 PM | Group Project |
+| 9:00 PM – 10:00 PM | Revision |
+| 10:00 PM onwards | Rest |
+
+The student suddenly receives an invitation:
+
+> **"Let's have dinner together at 7:00 PM in Puchong."**
+
+The student asks Coze:
+
+> **"Can I go?"**
+
+Instead of simply adding the event to the calendar, Coze evaluates the user's situation.
+
+### What Coze Considers
+
+**📍 Location**
+
+The dinner is in Puchong while the user is currently elsewhere.
+
+**🚗 Travel Time**
+
+The journey requires additional travel time before and after the dinner.
+
+**⏰ Deadlines**
+
+The programming assignment is due soon and has a higher priority than revision.
+
+**⚡ Energy**
+
+The user has already had a long day and has limited energy remaining.
+
+**🧠 Stress**
+
+The user's current workload is already relatively high.
+
+**🛌 Recovery**
+
+Coze avoids filling every available hour and protects sufficient rest time.
+
+### Coze's Response
+
+Instead of simply rejecting the event or moving everything later, Coze can reorganise the workload:
+
+- Keep the high-priority programming assignment
+- Shorten or move the lower-priority revision session
+- Add travel time before and after dinner
+- Reschedule the group project if necessary
+- Preserve recovery time
+- Explain why each change was made
+
+For example:
+
+> **"You can attend the dinner, but your workload is already high. I moved your revision session to tomorrow because it has a lower priority and added travel time for the trip to Puchong. Your programming assignment remains tonight because its deadline is earlier. I also kept your usual recovery time."**
+
+### What-If Scenario
+
+Before accepting the dinner, the user can ask:
+
+> **"What if I also go for badminton after dinner?"**
+
+Coze simulates the additional activity and shows the impact.
+
+| Option | Workload | Assignment | Recovery |
+|---|---|---|---|
+| **Dinner only** | Manageable | Completed | Preserved |
+| **Dinner + Badminton** | High | Must be shortened or moved | Reduced |
+
+The user can then make the final decision.
+
+> **Coze doesn't decide how the user should live. It helps the user understand the consequences of their choices.**
 ---
 
 # 2. Ideation & Process
