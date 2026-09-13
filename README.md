@@ -269,8 +269,6 @@ Our idea is that effective productivity should not only be about completing more
 ## 2.2 Ideation Boards
 
 ### Mindmap
-
-![Mindmap](docs/images/mindmap.png)
 ```mermaid
 mindmap
   root((Coze<br/>AI Stress &amp; Workload Manager))
@@ -317,18 +315,45 @@ The mindmap shows the main problems we identified around **stress, workload, tim
 
 ### User Flow
 
-![User Flow](docs/images/userflow.png)
+```mermaid
+flowchart TD
+    Start([User Opens Coze]) --> Home[Home Screen]
+    Home --> Missions[View Today's Missions &amp; Schedule]
+    Home --> Mood[Log Current Mood / Stress Level]
+    Home --> Chat[Talk to AI Assistant]
+    Home --> Tasks[Manage Tasks]
+    Home --> Cal[View Calendar / List View]
 
+    Mood --> AgentStress[Stress &amp; Mood Agent]
+    AgentStress --> Support[Receive Supportive Suggestions]
+
+    Tasks --> AddTask[Add / Edit / Prioritise Task]
+    AddTask --> AgentTask[Task Agent]
+    AgentTask --> UpdateSchedule[Task Reflected in Schedule]
+
+    Chat --> Intent{What does user need?}
+    Intent -->|Plan my day| AgentPlan[Planning Agent]
+    Intent -->|New event / invitation| WhatIf[What-If Planning]
+    Intent -->|Feeling overwhelmed| AgentStress
+
+    WhatIf --> Evaluate[Evaluate Context:<br/>Location, Travel, Deadlines,<br/>Energy, Stress, Recovery]
+    Evaluate --> Options[Show Possible Scheduling Options]
+    Options --> Decision{User Accepts Change?}
+    Decision -->|Yes| Reschedule[Adaptive Scheduling:<br/>Reorganise Tasks]
+    Decision -->|No| Home
+
+    AgentPlan --> Reschedule
+    Reschedule --> Explain[AI Explains Why Tasks Were Moved]
+    Explain --> UpdateSchedule
+
+    UpdateSchedule --> Missions
+    Support --> Missions
+
+    Missions --> Notify{New Conflict or Deadline?}
+    Notify -->|Yes| Chat
+    Notify -->|No| End([End Session])
+```
 The user flow shows how users interact with Coze from the beginning of their day. Users can check their current tasks and schedule, communicate with the AI assistant, update their mood, manage tasks, and receive suggestions for planning their day.
-
-### Crazy Eights
-
-![Crazy Eights](docs/images/crazy8.png)
-
-The Crazy Eights activity helped us quickly explore different interface ideas. We experimented with different layouts for the AI assistant, task list, calendar, mood tracking, and mascot interaction.
-
-These sketches helped us decide on a simple interface that keeps the AI assistant and daily tasks easy to access.
-
 ---
 
 ## 2.3 Mentor Consultation
@@ -640,12 +665,7 @@ During development, we identified several constraints:
 Coze/
 ├── README.md
 ├── docs/
-│   ├── images/
-│   │   ├── mindmap.png
-│   │   ├── userflow.png
-│   │   └── crazy8.png
-│   │
-│   └── screenshots/
+│   ├── screenshots/
 │       ├── home.png
 │       ├── assistant.png
 │       ├── schedule.png
