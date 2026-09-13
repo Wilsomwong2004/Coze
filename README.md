@@ -354,7 +354,7 @@ flowchart TD
     Notify -->|No| End([End Session])
 ```
 The user flow shows how users interact with Coze from the beginning of their day. Users can check their current tasks and schedule, communicate with the AI assistant, update their mood, manage tasks, and receive suggestions for planning their day.
----
+
 
 ## 2.3 Mentor Consultation
 
