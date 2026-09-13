@@ -302,7 +302,7 @@ These sketches helped us decide on a simple interface that keeps the AI assistan
 
 # 3. Design & Prototype
 
-**UI Prototype:** [Prototype Link]
+**UI Prototype:** [Prototype Link](https://www.figma.com/design/d2CJwlIP6BHQUiMtMa1pkO/XByte-Codenation-Hackathon?node-id=0-1&t=G0hEf5GM1Nn3rjXc-1)
 
 Our prototype focuses on creating a **friendly, simple, and low-pressure experience**.
 
@@ -546,9 +546,8 @@ During development, we identified several constraints:
 
 # 11. Project Links
 
-- 🎥 **Video Presentation:** [Unlisted YouTube Link]
+- 🎥 **Video Presentation:** [[Unlisted YouTube Link]](https://youtu.be/F1Af4PVwmkA)
 - 🎨 **UI Prototype:** [Prototype Link](https://www.figma.com/design/d2CJwlIP6BHQUiMtMa1pkO/XByte-Codenation-Hackathon?node-id=0-1&t=G0hEf5GM1Nn3rjXc-1)
-- 📊 **Presentation Slides:** [Public Slides Link]
 
 ---
 
