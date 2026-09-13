@@ -430,7 +430,7 @@ The **Calendar View** provides a quick overview of the user's schedule, while th
 
 ## Today's Missions
 
-![Today's Missions](docs/screenshots/missions.png)
+![Today's Missions](docs/screenshots/todays_missions.png)
 
 Today's Missions shows the tasks that need the user's attention.
 
