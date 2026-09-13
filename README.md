@@ -342,7 +342,7 @@ Users can:
 
 ## Smart Schedule
 
-![Smart Schedule](docs/screenshots/schedule.png)
+![Smart Schedule](docs/screenshots/calendar_schedule_list.png)
 
 The Smart Schedule provides a clear overview of the user's planned activities.
 
@@ -367,6 +367,48 @@ The **Calendar View** provides a quick overview of the user's schedule, while th
 Today's Missions shows the tasks that need the user's attention.
 
 Tasks can be given different priorities so users can focus on important work first.
+
+---
+
+## Lock Screen Notifications
+
+![Lock Screen Notifications](docs/screenshots/notifications_lock_screen.png)
+
+Lock Screen Notifications keep users updated without needing to open the app.
+
+It includes:
+
+- Upcoming task or event reminders
+- Alerts when the schedule has been automatically adjusted
+- Gentle check-ins on mood or stress levels
+
+---
+
+## Notification Pop-Up
+
+![Notification Pop-Up](docs/screenshots/notifcations_popup.png)
+
+The Notification Pop-Up gives users a closer look at an alert without leaving their current screen.
+
+It includes:
+
+- A short summary of what changed and why
+- Quick actions to accept, dismiss, or review further
+- A link back to the full schedule
+
+---
+
+## Home Screen Widgets
+
+![Home Screen Widgets](docs/screenshots/home_screen_widgets.png)
+
+Home Screen Widgets let users check in on Coze without opening the app.
+
+It includes:
+
+- Today's top missions
+- Current mood or stress status
+- Quick shortcuts to the AI assistant
 
 ---
 
