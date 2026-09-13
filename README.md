@@ -420,7 +420,8 @@ Tasks can be organised into different periods of the day, helping users understa
 
 ## Calendar & List View
 
-![Calendar](docs/screenshots/calendar.png)
+![Calendar View](docs/screenshots/calendar.png)
+![List View](docs/screenshots/calendar_schedule_list.png)
 
 Users can switch between calendar and list views.
 
