@@ -362,6 +362,7 @@ The user flow shows how users interact with Coze from the beginning of their day
 |---|---|---|---|
 | 06/09/2026 | Yeong Chiau Wen | The application should clearly explain how AI helps users instead of only acting as a chatbot. | Added AI-based task planning and schedule generation. |
 | 06/09/2026 | Yeong Chiau Wen | The interface should be simple and friendly because users may already feel stressed. | Simplified the interface and introduced the Coze mascot. |
+| 06/09/2026 | Yeong Chiau Wen | Can gamify the application. | Consider to add an additional feature: Add points collection system and allow user to change 3d model skin or interactions by using points. |
 | 11/09/2026 | Mah Qing Fung | The application should show the user's tasks and schedule clearly. | Added Calendar/List views and Today's Missions section. |
 | 11/09/2026 | Mah Qing Fung | The figma prototype should show more details and some scenarios. | Enhanced wireframe and added scenario/examples. |
 
